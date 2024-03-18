@@ -53,10 +53,61 @@ The application was developed using Oracle Application Express. To access the ap
     
 The first step in the development of the application involved the development of the main pages, including the secondary ones in the menu. In addition, each page is endowed with a distinctive symbol, reflecting the associated content. The home page is the main page itself, where a suggestive image illustrating the chosen theme is integrated
 
-![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/eb24c6ef-c48d-4f0f-996e-a522d0283b75)
+  ![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/eb24c6ef-c48d-4f0f-996e-a522d0283b75)
 
 
    2. Forms page
 
-Pagina principală Formulare conține alte 5 formulare secundare, după cum urmează:
-*Formular oraș: contine un formular cu campurile necesare pentru a introduce orasul de unde calatorul va dori sa zboare cu avionul. Pentru ID_Oras a fost create un trigger pentru generare automata.
+The main Forms page contains 5 other sub-forms as follows:
+
+ * City form: contains a form with the necessary fields to enter the city from where the traveler wants to fly. A trigger for automatic generation was created for ID_City.
+   
+   ![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/b7ce5f3a-9660-46ee-ab33-eedd08af51e7)
+
+ * Airport form: allows the insertion of data in the AIRPORT table, but also in the CITY table. A trigger for automatic generation was created for ID_Aeroport.
+
+   ![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/ae857314-faf7-4efb-8ca3-a65f318312ca)
+
+ * Company form: allows the insertion of data in the COMPANY table. A trigger for automatic generation was created for ID_Company.
+
+   ![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/8e461dcb-f229-472a-9e94-a02bb039c854)
+
+ * Flights form: continue the necessary information to enter data about each flight. Thus, it allows the insertion of data in the FLIGHT table, in the AIRPORT table, and COMPANY. A trigger for automatic generation was created for ID_Flight.
+
+   ![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/3040bdb9-3a49-49b8-8a3e-c14239370f00)
+
+
+  3. Reports page
+
+The Reports page is the next main page, which contains 3 other sub-reports:
+
+  * Client report – it is a simple report to check the client data if they have been entered correctly by filling out the specific form.
+
+    ![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/00c3b626-4af2-436f-bf3e-ac3a00e0e22e)
+
+  * Flight report – presents data on various flights operated by certain companies. The data is related to departure dates, departure airport, flight price, company and company description. The report was made with the help of the JOIN function between the Airport, Flight, Company tables.
+
+    ![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/45ed23ee-3c3f-46b6-8bba-dea8885ca354)
+
+  * Airport report - presents data about airports, the city, the country where the airport is located and the date of departure. The report was made with the help of the JOIN function between the City, Airport, Flight tables.
+
+    ![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/0026185d-d54c-4287-a770-1c25c0deb63f)
+
+    
+  4. Calendar page
+
+     The Flight Calendar page was created with the aim of being able to find already scheduled flights much easier and faster
+
+     ![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/3d8085b5-5bc3-460c-a0ed-0701e0487db1)
+
+
+ 5. Flight price chart page
+    
+    The following chart shows the prices for each airline, oriented horizontally. The names of the companies are listed on the vertical axis (Oy), while the prices expressed in lei are represented on the horizontal axis (Ox).
+
+    ![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/d5e6010a-a6a2-49eb-a963-32c471065c61)
+
+
+
+
+
