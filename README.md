@@ -22,8 +22,7 @@ The figure below shows the logic diagram, which contains all the database entiti
 *  CLIENTI-BILET CONNECTION 1:M: A customer can own one or more tickets, and a ticket must belong to only one customer.
 
 
-
-   **2. Relational diagram**
+ **2. Relational diagram**
 
 The figure below shows the relational diagram that forms the basis for the last stage of creating the database
 physical data and is derived from the logic diagram. This diagram includes all relationships between entities and
@@ -35,7 +34,7 @@ attributes for which aliases were used.
 
   **3. Generated SQL DDL script**
 
-The generated SQL DDL script is at the link:[sript](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/blob/main/sript.sql)
+The generated SQL DDL script is at the link:[scrit](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/blob/main/sript.sql)
 
 
    **4. Database generation in Oracle APEX based on SQL script**
@@ -111,7 +110,9 @@ The Reports page is the next main page, which contains 3 other sub-reports:
 #### Access to the application is made through the following link: [access to the application](https://apex.oracle.com/pls/apex/r/ioanaflore99/aeroport/login?session=100580728154733)
 
 Login credentials:
+
 Username: ioanamarincas993@gmail.com
+
 Password: marincasioaflore9
 
 
