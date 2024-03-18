@@ -53,3 +53,10 @@ The application was developed using Oracle Application Express. To access the ap
     
 The first step in the development of the application involved the development of the main pages, including the secondary ones in the menu. In addition, each page is endowed with a distinctive symbol, reflecting the associated content. The home page is the main page itself, where a suggestive image illustrating the chosen theme is integrated
 
+![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/eb24c6ef-c48d-4f0f-996e-a522d0283b75)
+
+
+   2. Forms page
+
+Pagina principală Formulare conține alte 5 formulare secundare, după cum urmează:
+*Formular oraș: contine un formular cu campurile necesare pentru a introduce orasul de unde calatorul va dori sa zboare cu avionul. Pentru ID_Oras a fost create un trigger pentru generare automata.
