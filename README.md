@@ -4,7 +4,20 @@
 
 ## *Database design*
    1. Logic diagram
-    The figure below shows the logic diagram, which contains all the database entities for booking airline tickets and the links between them.
-    ![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/8da63e65-6fab-430d-91b0-0b518bcb2211)
+
+I created in Oracle SQL Developer Data Modeler the logical diagram for a database for booking plane tickets.
+
+The figure below shows the logic diagram, which contains all the database entities for booking airline tickets and the links between them.
+
+ ![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/8da63e65-6fab-430d-91b0-0b518bcb2211)
+
+ Business rules:
+
+*  ORAS-AEROPORT CONNECTTION 1:M: A city can have one or more airports, and an airport must belong to a single city;
+*  AIEROPORT-ZBOR CONNECTION 1:M: an airport can have one or more flights, and a flight must depart from only one airport;
+*  AEROPORT-ZBOR1 CONNECTION 1:M: an airport can have one or more flights, and a flight must depart from only one airport;
+*  COMPANIE-ZBOR CONNECTION 1:M: a company can have one or more flights, and a flight must belong to a company;
+*  ZBOR-BILET CONNECTION 1:M: a flight may have one or more tickets for sale, and a ticket must belong to a single flight;
+*  CLIENTI-BILET CONNECTION 1:M: A customer can own one or more tickets, and a ticket must belong to only one customer.
 
 
