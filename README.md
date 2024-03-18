@@ -34,7 +34,7 @@ attributes for which aliases were used.
 
   **3. Generated SQL DDL script**
 
-The generated SQL DDL script is at the link:[scrit](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/blob/main/sript.sql)
+The generated SQL DDL script is at the link: [scrit](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/blob/main/sript.sql)
 
 
    **4. Database generation in Oracle APEX based on SQL script**
@@ -112,7 +112,6 @@ The Reports page is the next main page, which contains 3 other sub-reports:
 Login credentials:
 
 Username: ioanamarincas993@gmail.com
-
 Password: marincasioaflore9
 
 
