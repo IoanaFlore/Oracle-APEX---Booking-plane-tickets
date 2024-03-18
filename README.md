@@ -108,6 +108,10 @@ The Reports page is the next main page, which contains 3 other sub-reports:
     ![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/d5e6010a-a6a2-49eb-a963-32c471065c61)
 
 
+#### Access to the application is made through the following link: [access to the application](https://apex.oracle.com/pls/apex/r/ioanaflore99/aeroport/login?session=100580728154733)
 
+Login credentials:
+Username: ioanamarincas993@gmail.com
+Password: marincasioaflore9
 
 
