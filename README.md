@@ -33,7 +33,23 @@ attributes for which aliases were used.
 
 
 
-   **3. Generated SQL DDL script**
+  **3. Generated SQL DDL script**
 
 The generated SQL DDL script is at the link: 
+
+
+   **4. Database generation in Oracle APEX based on SQL script**
+
+  ![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/7a382f9f-79df-4627-9fbd-91a227c4c871)
+  
+## *Application development*
+The application was developed using Oracle Application Express. To access the app's functionality, users are required to log in via a login page. This login page is your first interaction with the app and includes the name of the app along with a suggestive logo.
+
+![image](https://github.com/IoanaFlore/Oracle-APEX---Booking-plane-tickets/assets/111995212/8c9e38ac-671a-4b88-8dbd-3a9b6a468925)
+
+
+   1. Home page
+
+    
+The first step in the development of the application involved the development of the main pages, including the secondary ones in the menu. In addition, each page is endowed with a distinctive symbol, reflecting the associated content. The home page is the main page itself, where a suggestive image illustrating the chosen theme is integrated
 
